@@ -1,21 +1,8 @@
 mkdir -p ~/.streamlit/
-
-echo "\
-[general]\n\
-email = \"davidbellaiche24@gmail.com\"\n\
-" > ~/.streamlit/credentials.toml
-
 echo "\
 [server]\n\
 headless = true\n\
-enableCORS=false\n\
 port = $PORT\n\
+enableCORS = false\n\
+\n\
 " > ~/.streamlit/config.toml
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-
-=======
->>>>>>> a6099779b2608e7494cef6af1335a64286d60b39
-=======
->>>>>>> a6099779b2608e7494cef6af1335a64286d60b39
