@@ -15,7 +15,7 @@ def app():
     """
 
     features_importance = pd.read_csv("features_importance.csv")
-    client_list = pd.read_csv("client_list.csv")#, index_col="SK_ID_CURR", sep=",")
+    client_list = pd.read_csv("client_list.csv", index_col="SK_ID_CURR", sep=",")
 
 
     #slider
