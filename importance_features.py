@@ -29,7 +29,7 @@ def app():
 
     option_rank = features_importance[features_importance['features']==option]["rank"].values[0]
     option_total_rank = features_importance["rank"].max()
-    option_coeff = features_importance["importance"]
+    option_coeff = features_importance[features_importance['features']==option]["importance"].values[0]
 
     st.write("{} is ranked {}/{} in terms of features importance in the model. Its importance coefficient is {}.".format(
         option,
