@@ -1,2 +1,8 @@
 *.csv filter=lfs diff=lfs merge=lfs -text
 application_main.csv filter=lfs diff=lfs merge=lfs -text
+client_list_raw.csv filter=lfs diff=lfs merge=lfs -text
+features_importance.csv filter=lfs diff=lfs merge=lfs -text
+scaled_data.csv filter=lfs diff=lfs merge=lfs -text
+schema_for_data_prep.csv filter=lfs diff=lfs merge=lfs -text
+application_test.csv filter=lfs diff=lfs merge=lfs -text
+client_list.csv filter=lfs diff=lfs merge=lfs -text
