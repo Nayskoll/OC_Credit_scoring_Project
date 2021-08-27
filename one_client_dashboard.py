@@ -93,6 +93,10 @@ def app():
     st.write(fig)
 
 
+<<<<<<< HEAD
     st.markdown('### Check the coefficient for each features.  If it\'s positive, good client should have low values')
+=======
+    st.markdown('### Check the coefficient for each features.  If it\'s negative, good client should have low values')
+>>>>>>> 3354d7809eb959fb6eb5514bee6ff97d123a78e4
 
     st.write(features_importance.head(10)[["features", "importance"]])
