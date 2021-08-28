@@ -49,7 +49,6 @@ def app():
         else:
             fig, ax = plt.subplots()
             ax.hist(client_list[analyze_feature], bins=50)
-            ax.hist(client_list[analyze_feature], bins=20)
             plt.title(analyze_feature)
             plt.style.use('seaborn-dark-palette')
             st.pyplot(fig)
